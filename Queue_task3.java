@@ -1,4 +1,4 @@
-class MyQueue<T> {
+class MyQueue<T> implements MyQueueInterface<T> {
     private int size = 0;
     private Node<T> first;
     private Node<T> last;
