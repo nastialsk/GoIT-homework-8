@@ -1,4 +1,4 @@
-class MyLinkedList<T> {
+class MyLinkedList<T> implements MyLinkedListInterface<T> {
     private int size = 0;
 
     private Node<T> first;
