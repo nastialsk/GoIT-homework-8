@@ -1,6 +1,6 @@
 import java.util.StringJoiner;
 
-public class MyArrayList<T> implements MyArrayListInterface<T> {
+public class MyArrayList<T> {
     private static final int arraySize = 8;
 
     private Object[] array;
